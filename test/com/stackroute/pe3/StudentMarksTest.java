@@ -31,4 +31,10 @@ public class StudentMarksTest {
         int res=ob.checkMarks(4,marks);
         assertEquals(0,res);
     }
+    @Test
+    public void checsInalidkMarksNotNull() {
+        int[] marks={123,43,32,87};
+        int res=ob.checkMarks(4,marks);
+        assertNotNull(res);
+    }
 }

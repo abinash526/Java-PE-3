@@ -33,4 +33,10 @@ public class FirstAndLastDayCalculatorTest {
                 "Last day is:- 30 Jun 2019",res);
 
     }
+    @Test
+    public void testFirstAndLastDay2NotNull() {
+        String res=ob.firstAndLastDay("6/30/2019");
+        assertNotNull(res);
+
+    }
 }

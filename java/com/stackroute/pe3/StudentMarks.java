@@ -6,6 +6,7 @@ public class StudentMarks {
         int i;
         for( i=0;i<n;i++)
         {
+            //Validity Check
             if(marks[i]<0||marks[i]>100)
             {
                 System.out.println("Invalid Input");

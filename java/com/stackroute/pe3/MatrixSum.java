@@ -3,11 +3,14 @@ package com.stackroute.pe3;
 public class MatrixSum {
     public String matrixSum(int row,int column,int[][] matrix1, int[][] matrix2)
     {
+        if(matrix1==null)
+            return null;
         int counter1,counter2,sum=0;
         String outp="";
         System.out.println("--------------------------");
         System.out.println("Sum is");
         System.out.println("--------------------------");
+        //Addition of matrix
         for(counter1=0;counter1<row;counter1++)
         {
             for(counter2=0;counter2<column;counter2++)

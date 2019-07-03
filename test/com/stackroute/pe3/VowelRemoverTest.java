@@ -35,4 +35,10 @@ public class VowelRemoverTest {
         assertEquals("Grmny",res);
     }
 
+    @Test
+    public void vowelRemoverNotNUll(){
+        String res=ob.vowelRemover("Germany");
+        assertNotNull(res);
+    }
+
 }

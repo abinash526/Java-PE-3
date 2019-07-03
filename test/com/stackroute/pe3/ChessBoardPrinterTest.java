@@ -6,12 +6,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ChessBoardPrintTest {
-    ChessBoardPrint ob;
+public class ChessBoardPrinterTest {
+    ChessBoardPrinter ob;
 
     @Before
     public void setUp() throws Exception {
-        ob=new ChessBoardPrint();
+        ob=new ChessBoardPrinter();
     }
 
     @After

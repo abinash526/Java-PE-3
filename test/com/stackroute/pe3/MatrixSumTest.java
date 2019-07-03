@@ -40,4 +40,20 @@ public class MatrixSumTest {
                 "6 10 18 \n" +
                 "7 18 20 \n",res);
     }
+    @Test
+    public void matrixSumtestForNotNull() {
+        int[][] Matrix1={{1,2,4},{1,2,4},{3,5,1}};
+        int[][] Matrix2={{12,2,6},{5,2,4},{4,6,1}};
+
+        String res=ob.matrixSum(3,3,Matrix1,Matrix2);
+        assertNotNull(res);
+    }
+    @Test
+    public void matrixSumtestForNull() {
+        int[][] Matrix1=null;
+        int[][] Matrix2=null;
+
+        String res=ob.matrixSum(3,3,Matrix1,Matrix2);
+        assertNull(res);
+    }
 }

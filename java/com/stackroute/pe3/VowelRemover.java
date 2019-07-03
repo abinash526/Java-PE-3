@@ -4,6 +4,7 @@ public class VowelRemover {
     public String vowelRemover(String input)
     {
         String outp="";
+        //Check for Vowel and consonant
         for(int i=0;i<input.length();i++)
         {
             if(input.charAt(i)=='a'||input.charAt(i)=='e'||input.charAt(i)=='i'||input.charAt(i)=='o'||input.charAt(i)=='u')

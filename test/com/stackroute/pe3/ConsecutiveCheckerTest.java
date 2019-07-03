@@ -1,3 +1,5 @@
+/*
+* */
 package com.stackroute.pe3;
 
 import org.junit.After;
@@ -29,5 +31,11 @@ public class ConsecutiveCheckerTest {
     {
         String res=ob.consecutiveChecker(9876543);
         assertEquals("9876543 contains consecutive numbers",res);
+    }
+    @Test
+    public void TestConsecutiveCheckerNotNull()
+    {
+        String res=ob.consecutiveChecker(9876543);
+        assertNotNull(res);
     }
 }
